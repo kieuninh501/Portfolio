@@ -201,7 +201,7 @@ export function RevealItem({
       <article
         {...rest}
         className={itemClassName}
-        ref={itemRef as RefObject<HTMLArticleElement>}
+        ref={itemRef as RefObject<HTMLElement>}
         style={style}
       >
         {children}

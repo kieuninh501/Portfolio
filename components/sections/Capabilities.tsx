@@ -8,7 +8,9 @@ type CapabilitiesProps = {
 
 export function Capabilities({ locale }: CapabilitiesProps) {
   const section = copy[locale].sections.capabilities;
-  const titleLines = Array.isArray(section.title) ? section.title : [section.title];
+  const titleValue: string | readonly string[] = section.title;
+  const titleLines = typeof titleValue === "string" ? [titleValue] : [...titleValue];
+  const descriptionLines = [...section.description];
   const capabilityRows = [capabilities.slice(0, 2), capabilities.slice(2, 4)];
 
   return (
@@ -28,10 +30,10 @@ export function Capabilities({ locale }: CapabilitiesProps) {
               ))}
             </h2>
             <p
-              aria-label={section.description.join(" ")}
+              aria-label={descriptionLines.join(" ")}
               className="capabilities-section__description"
             >
-              {section.description.map((line) => (
+              {descriptionLines.map((line) => (
                 <span key={line}>{line}</span>
               ))}
             </p>
