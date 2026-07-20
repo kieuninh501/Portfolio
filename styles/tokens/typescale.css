@@ -1,0 +1,131 @@
+:root {
+  --typescale-display-font-size: 72px;
+  --typescale-display-line-height: 88px;
+
+  --typescale-h1-font-size: 56px;
+  --typescale-h1-line-height: 72px;
+
+  --typescale-h2-font-size: 48px;
+  --typescale-h2-line-height: 64px;
+
+  --typescale-h3-font-size: 40px;
+  --typescale-h3-line-height: 56px;
+
+  --typescale-h4-font-size: 32px;
+  --typescale-h4-line-height: 48px;
+
+  --typescale-h5-font-size: 24px;
+  --typescale-h5-line-height: 40px;
+
+  --typescale-h6-font-size: 20px;
+  --typescale-h6-line-height: 28px;
+
+  --typescale-body-lg-font-size: 18px;
+  --typescale-body-lg-line-height: 24px;
+
+  --typescale-body-md-font-size: 16px;
+  --typescale-body-md-line-height: 24px;
+
+  --typescale-body-sm-font-size: 14px;
+  --typescale-body-sm-line-height: 22px;
+
+  --typescale-description-lg-font-size: 18px;
+  --typescale-description-lg-line-height: 28px;
+
+  --typescale-description-md-font-size: 16px;
+  --typescale-description-md-line-height: 24px;
+
+  --typescale-description-sm-font-size: 14px;
+  --typescale-description-sm-line-height: 22px;
+
+  --typescale-caption-md-font-size: 12px;
+  --typescale-caption-md-line-height: 18px;
+
+  --typescale-caption-sm-font-size: 11px;
+  --typescale-caption-sm-line-height: 16px;
+
+  --typescale-label-lg-font-size: 16px;
+  --typescale-label-lg-line-height: 24px;
+
+  --typescale-label-md-font-size: 14px;
+  --typescale-label-md-line-height: 20px;
+
+  --typescale-label-sm-font-size: 12px;
+  --typescale-label-sm-line-height: 18px;
+
+  --typescale-eyebrow-lg-font-size: 16px;
+  --typescale-eyebrow-lg-line-height: 24px;
+  --typescale-eyebrow-lg-letter-spacing: 4px;
+
+  --typescale-mobile-display-font-size: 56px;
+  --typescale-mobile-display-line-height: 72px;
+  --typescale-mobile-h1-font-size: 48px;
+  --typescale-mobile-h1-line-height: 64px;
+  --typescale-mobile-h2-font-size: 40px;
+  --typescale-mobile-h2-line-height: 56px;
+  --typescale-mobile-h3-font-size: 32px;
+  --typescale-mobile-h3-line-height: 48px;
+  --typescale-mobile-h4-font-size: 24px;
+  --typescale-mobile-h4-line-height: 40px;
+  --typescale-mobile-h5-font-size: 20px;
+  --typescale-mobile-h5-line-height: 28px;
+  --typescale-mobile-h6-font-size: 18px;
+  --typescale-mobile-h6-line-height: 24px;
+  --typescale-mobile-body-lg-font-size: 16px;
+  --typescale-mobile-body-lg-line-height: 24px;
+  --typescale-mobile-body-md-font-size: 14px;
+  --typescale-mobile-body-md-line-height: 22px;
+  --typescale-mobile-body-sm-font-size: 12px;
+  --typescale-mobile-body-sm-line-height: 18px;
+  --typescale-mobile-description-lg-font-size: 16px;
+  --typescale-mobile-description-lg-line-height: 24px;
+  --typescale-mobile-description-md-font-size: 14px;
+  --typescale-mobile-description-md-line-height: 22px;
+  --typescale-mobile-description-sm-font-size: 13px;
+  --typescale-mobile-description-sm-line-height: 20px;
+  --typescale-mobile-caption-md-font-size: 12px;
+  --typescale-mobile-caption-md-line-height: 18px;
+  --typescale-mobile-caption-sm-font-size: 11px;
+  --typescale-mobile-caption-sm-line-height: 16px;
+  --typescale-mobile-label-lg-font-size: 16px;
+  --typescale-mobile-label-lg-line-height: 24px;
+  --typescale-mobile-label-md-font-size: 14px;
+  --typescale-mobile-label-md-line-height: 20px;
+  --typescale-mobile-label-sm-font-size: 12px;
+  --typescale-mobile-label-sm-line-height: 18px;
+  --typescale-mobile-eyebrow-lg-font-size: 14px;
+  --typescale-mobile-eyebrow-lg-line-height: 22px;
+}
+
+@media (width < 768px) {
+  :root {
+    --typescale-display-font-size: var(--typescale-mobile-display-font-size);
+    --typescale-display-line-height: var(--typescale-mobile-display-line-height);
+    --typescale-h1-font-size: var(--typescale-mobile-h1-font-size);
+    --typescale-h1-line-height: var(--typescale-mobile-h1-line-height);
+    --typescale-h2-font-size: var(--typescale-mobile-h2-font-size);
+    --typescale-h2-line-height: var(--typescale-mobile-h2-line-height);
+    --typescale-h3-font-size: var(--typescale-mobile-h3-font-size);
+    --typescale-h3-line-height: var(--typescale-mobile-h3-line-height);
+    --typescale-h4-font-size: var(--typescale-mobile-h4-font-size);
+    --typescale-h4-line-height: var(--typescale-mobile-h4-line-height);
+    --typescale-h5-font-size: var(--typescale-mobile-h5-font-size);
+    --typescale-h5-line-height: var(--typescale-mobile-h5-line-height);
+    --typescale-h6-font-size: var(--typescale-mobile-h6-font-size);
+    --typescale-h6-line-height: var(--typescale-mobile-h6-line-height);
+    --typescale-body-lg-font-size: var(--typescale-mobile-body-lg-font-size);
+    --typescale-body-lg-line-height: var(--typescale-mobile-body-lg-line-height);
+    --typescale-body-md-font-size: var(--typescale-mobile-body-md-font-size);
+    --typescale-body-md-line-height: var(--typescale-mobile-body-md-line-height);
+    --typescale-body-sm-font-size: var(--typescale-mobile-body-sm-font-size);
+    --typescale-body-sm-line-height: var(--typescale-mobile-body-sm-line-height);
+    --typescale-description-lg-font-size: var(--typescale-mobile-description-lg-font-size);
+    --typescale-description-lg-line-height: var(--typescale-mobile-description-lg-line-height);
+    --typescale-description-md-font-size: var(--typescale-mobile-description-md-font-size);
+    --typescale-description-md-line-height: var(--typescale-mobile-description-md-line-height);
+    --typescale-description-sm-font-size: var(--typescale-mobile-description-sm-font-size);
+    --typescale-description-sm-line-height: var(--typescale-mobile-description-sm-line-height);
+    --typescale-eyebrow-lg-font-size: var(--typescale-mobile-eyebrow-lg-font-size);
+    --typescale-eyebrow-lg-line-height: var(--typescale-mobile-eyebrow-lg-line-height);
+  }
+}

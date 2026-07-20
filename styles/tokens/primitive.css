@@ -1,0 +1,183 @@
+:root {
+  color-scheme: light;
+
+  --primitive-base-white: #ffffff;
+  --primitive-base-black: #000000;
+  --primitive-base-transparent: rgb(255 255 255 / 0);
+
+  --primitive-blue-50: #f3fbff;
+  --primitive-blue-100: #c7eeff;
+  --primitive-blue-200: #9ce0ff;
+  --primitive-blue-300: #70d3ff;
+  --primitive-blue-400: #44c6ff;
+  --primitive-blue-500: #19b9ff;
+  --primitive-blue-600: #1494cc;
+  --primitive-blue-700: #0f6f99;
+  --primitive-blue-800: #0a4a66;
+  --primitive-blue-900: #042432;
+
+  --primitive-violet-50: #f7f5fa;
+  --primitive-violet-100: #dbd0e8;
+  --primitive-violet-200: #bfacd6;
+  --primitive-violet-300: #a387c4;
+  --primitive-violet-400: #8763b2;
+  --primitive-violet-500: #6b3fa0;
+  --primitive-violet-600: #553280;
+  --primitive-violet-700: #402560;
+  --primitive-violet-800: #2a1940;
+  --primitive-violet-900: #150c1f;
+
+  --primitive-gray-50: #f4f4f4;
+  --primitive-gray-100: #cdcdce;
+  --primitive-gray-200: #a6a6a7;
+  --primitive-gray-300: #7f7f80;
+  --primitive-gray-400: #585859;
+  --primitive-gray-500: #313133;
+  --primitive-gray-600: #272728;
+  --primitive-gray-700: #1d1d1e;
+  --primitive-gray-800: #131314;
+  --primitive-gray-900: #09090a;
+
+  --primitive-neutral-50: #f7f7f8;
+  --primitive-neutral-100: #dbdde0;
+  --primitive-neutral-200: #bfc2c8;
+  --primitive-neutral-300: #a3a7b0;
+  --primitive-neutral-400: #878c98;
+  --primitive-neutral-500: #6b7280;
+  --primitive-neutral-600: #555b66;
+  --primitive-neutral-700: #40444c;
+  --primitive-neutral-800: #2a2d33;
+  --primitive-neutral-900: #021531;
+
+  --primitive-vivid-blue-50: #f2f7fe;
+  --primitive-vivid-blue-100: #c4dbfc;
+  --primitive-vivid-blue-200: #96befb;
+  --primitive-vivid-blue-300: #68a2f9;
+  --primitive-vivid-blue-400: #3a86f7;
+  --primitive-vivid-blue-500: #0c6af6;
+  --primitive-vivid-blue-600: #0954c4;
+  --primitive-vivid-blue-700: #073f93;
+  --primitive-vivid-blue-800: #042a62;
+  --primitive-vivid-blue-900: #021531;
+
+  --primitive-red-50: #fdf3f3;
+  --primitive-red-100: #f9c9c9;
+  --primitive-red-200: #f59f9f;
+  --primitive-red-300: #f17575;
+  --primitive-red-400: #ed4b4b;
+  --primitive-red-500: #ea2222;
+  --primitive-red-600: #bb1b1b;
+  --primitive-red-700: #8c1414;
+  --primitive-red-800: #5d0d0d;
+  --primitive-red-900: #2e0606;
+
+  --primitive-green-50: #f5fdf3;
+  --primitive-green-100: #d2f8c6;
+  --primitive-green-200: #aef399;
+  --primitive-green-300: #8bee6d;
+  --primitive-green-400: #67e940;
+  --primitive-green-500: #44e414;
+  --primitive-green-600: #36b610;
+  --primitive-green-700: #28880c;
+  --primitive-green-800: #1b5b08;
+  --primitive-green-900: #0d2d03;
+
+  --primitive-orange-50: #fef8f3;
+  --primitive-orange-100: #feddc7;
+  --primitive-orange-200: #fdc39a;
+  --primitive-orange-300: #fca96e;
+  --primitive-orange-400: #fb8f42;
+  --primitive-orange-500: #fb7516;
+  --primitive-orange-600: #c85d11;
+  --primitive-orange-700: #96460d;
+  --primitive-orange-800: #642e08;
+  --primitive-orange-900: #321704;
+
+  --primitive-mint-neon-50: #f2fdfb;
+  --primitive-mint-neon-100: #c1f7ee;
+  --primitive-mint-neon-200: #91f1e1;
+  --primitive-mint-neon-300: #60ebd4;
+  --primitive-mint-neon-400: #30e5c7;
+  --primitive-mint-neon-500: #00e0ba;
+  --primitive-mint-neon-600: #00b394;
+  --primitive-mint-neon-700: #00866f;
+  --primitive-mint-neon-800: #00594a;
+  --primitive-mint-neon-900: #002c25;
+
+  --primitive-purple-pastel-50: #fbfbff;
+  --primitive-purple-pastel-100: #edeeff;
+  --primitive-purple-pastel-200: #dfe1ff;
+  --primitive-purple-pastel-300: #d1d4ff;
+  --primitive-purple-pastel-400: #c3c7ff;
+  --primitive-purple-pastel-500: #b5baff;
+  --primitive-purple-pastel-600: #9094cc;
+  --primitive-purple-pastel-700: #6c6f99;
+  --primitive-purple-pastel-800: #484a66;
+  --primitive-purple-pastel-900: #242532;
+
+  --primitive-blue-pastel-50: #fafdff;
+  --primitive-blue-pastel-100: #ebf8ff;
+  --primitive-blue-pastel-200: #dcf2ff;
+  --primitive-blue-pastel-300: #ccedff;
+  --primitive-blue-pastel-400: #bde7ff;
+  --primitive-blue-pastel-500: #aee2ff;
+  --primitive-blue-pastel-600: #8bb4cc;
+  --primitive-blue-pastel-700: #688799;
+  --primitive-blue-pastel-800: #455a66;
+  --primitive-blue-pastel-900: #222d32;
+
+  --primitive-lavender-50: #fcfbfe;
+  --primitive-lavender-100: #f1edfd;
+  --primitive-lavender-200: #e6defc;
+  --primitive-lavender-300: #dcd0fb;
+  --primitive-lavender-400: #d1c2fa;
+  --primitive-lavender-500: #c7b4f9;
+  --primitive-lavender-600: #9f90c7;
+  --primitive-lavender-700: #776c95;
+  --primitive-lavender-800: #4f4863;
+  --primitive-lavender-900: #272331;
+
+  --primitive-lavender-dark-50: #f7f7fb;
+  --primitive-lavender-dark-100: #dcd9ef;
+  --primitive-lavender-dark-200: #c1bbe3;
+  --primitive-lavender-dark-300: #a59dd7;
+  --primitive-lavender-dark-400: #8a7fcb;
+  --primitive-lavender-dark-500: #6f61c0;
+  --primitive-lavender-dark-600: #584d99;
+  --primitive-lavender-dark-700: #423a73;
+  --primitive-lavender-dark-800: #2c264c;
+  --primitive-lavender-dark-900: #161326;
+
+  --primitive-pink-50: #fff5fa;
+  --primitive-pink-100: #ffd0e9;
+  --primitive-pink-200: #ffacd8;
+  --primitive-pink-300: #ff87c7;
+  --primitive-pink-400: #ff62b6;
+  --primitive-pink-500: #ff3ea5;
+  --primitive-pink-600: #cc3184;
+  --primitive-pink-700: #992563;
+  --primitive-pink-800: #661842;
+  --primitive-pink-900: #320c20;
+
+  --primitive-deep-mystic-purple-50: #f6f4fc;
+  --primitive-deep-mystic-purple-100: #d7cef5;
+  --primitive-deep-mystic-purple-200: #b8a8ed;
+  --primitive-deep-mystic-purple-300: #9881e5;
+  --primitive-deep-mystic-purple-400: #795bdd;
+  --primitive-deep-mystic-purple-500: #5a35d6;
+  --primitive-deep-mystic-purple-600: #482aab;
+  --primitive-deep-mystic-purple-700: #361f80;
+  --primitive-deep-mystic-purple-800: #241555;
+  --primitive-deep-mystic-purple-900: #110a2a;
+
+  --primitive-neon-lavender-50: #f9f6fe;
+  --primitive-neon-lavender-100: #e3d7fc;
+  --primitive-neon-lavender-200: #cdb8fb;
+  --primitive-neon-lavender-300: #b799f9;
+  --primitive-neon-lavender-400: #a17af7;
+  --primitive-neon-lavender-500: #8b5cf6;
+  --primitive-neon-lavender-600: #6f49c4;
+  --primitive-neon-lavender-700: #533793;
+  --primitive-neon-lavender-800: #372462;
+  --primitive-neon-lavender-900: #1b1231;
+}

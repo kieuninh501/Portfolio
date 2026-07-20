@@ -1,0 +1,15 @@
+:root {
+  --icon-size-12: 12px;
+  --icon-size-16: 16px;
+  --icon-size-20: 20px;
+  --icon-size-24: 24px;
+  --icon-size-32: 32px;
+
+  --icon-size-xs: var(--icon-size-16);
+  --icon-size-sm: var(--icon-size-20);
+  --icon-size-md: var(--icon-size-24);
+  --icon-size-lg: var(--icon-size-32);
+
+  /* Legacy alias used by the current scaffold. */
+  --icon-size-xl: 40px;
+}

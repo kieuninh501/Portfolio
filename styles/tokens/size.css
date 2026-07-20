@@ -1,0 +1,10 @@
+:root {
+  --size-36: 36px;
+  --size-44: 44px;
+  --size-52: 52px;
+
+  /* Layout aliases used by the current scaffold. */
+  --size-page-width: 1280px;
+  --size-container-width: 1120px;
+  --size-header-height: 50px;
+}

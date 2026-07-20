@@ -1,0 +1,261 @@
+:root {
+  --brand-primary: var(--primitive-lavender-dark-500);
+
+  --status-success: var(--primitive-green-500);
+  --status-error: var(--primitive-red-500);
+  --status-info: var(--primitive-vivid-blue-500);
+  --status-warning: var(--primitive-orange-500);
+
+  --background-app: var(--primitive-base-white);
+  --background-page: var(--primitive-purple-pastel-50);
+  --background-overlay: var(--primitive-base-white);
+
+  --surface-default: var(--primitive-base-white);
+  --surface-default-default: var(--primitive-base-white);
+  --surface-default-inverse-strong: var(--primitive-gray-900);
+  --surface-default-inverse-subtle: var(--primitive-gray-500);
+  --surface-default-secondary: var(--primitive-base-white);
+  --surface-default-neutral-soft: var(--primitive-neutral-200);
+  --surface-default-neutral-subtle: var(--primitive-neutral-100);
+  --surface-default-danger: var(--status-error);
+  --surface-default-danger-strong: var(--primitive-red-600);
+  --surface-default-danger-subtle: var(--primitive-red-50);
+
+  --surface-default-brand-default: var(--brand-primary);
+  --surface-default-brand-strong: var(--primitive-lavender-dark-600);
+  --surface-default-brand-subtle: var(--primitive-lavender-dark-50);
+  --surface-default-brand-soft: var(--primitive-lavender-dark-100);
+
+  --surface-state-disabled: var(--primitive-gray-100);
+
+  --surface-muted: var(--surface-default-neutral-subtle);
+  --surface-glass: rgb(255 255 255 / 0.1);
+  --surface-inverse: var(--surface-default-inverse-strong);
+
+  --border-default: var(--primitive-neutral-200);
+  --border-default-default: var(--primitive-neutral-200);
+  --border-default-subtle: var(--primitive-neutral-100);
+  --border-default-strong: var(--primitive-gray-900);
+  --border-default-danger: var(--status-error);
+  --border-default-danger-soft: var(--primitive-red-300);
+
+  --border-brand-primary: var(--brand-primary);
+  --border-brand-soft: var(--primitive-lavender-dark-300);
+
+  --border-state-disabled: var(--primitive-neutral-400);
+  --border-strong: var(--border-default-strong);
+  --border-brand: var(--border-brand-primary);
+  --border-inverse: var(--primitive-base-white);
+
+  --text-default-primary: var(--primitive-gray-900);
+  --text-default-secondary: var(--primitive-gray-900);
+  --text-default-tertiary: var(--primitive-neutral-600);
+  --text-default-inverse: var(--primitive-base-white);
+  --text-default-inverse-secondary: var(--primitive-base-white);
+  --text-default-on-surface: var(--primitive-base-white);
+
+  --text-state-on-surface-disabled: var(--primitive-neutral-400);
+  --text-state-on-brand-disabled: var(--primitive-lavender-dark-300);
+  --text-state-on-danger-disabled: var(--primitive-red-300);
+
+  --text-brand-primary: var(--brand-primary);
+  --text-brand-primary-strong: var(--primitive-lavender-dark-600);
+
+  --text-status-success: var(--status-success);
+  --text-status-warning: var(--status-warning);
+  --text-status-error: var(--status-error);
+
+  --text-primary: var(--text-default-primary);
+  --text-secondary: var(--text-default-tertiary);
+  --text-tertiary: var(--text-default-tertiary);
+  --text-brand: var(--text-brand-primary);
+  --text-brand-strong: var(--text-brand-primary-strong);
+  --text-inverse: var(--text-default-inverse);
+
+  --icon-default-primary: var(--primitive-gray-900);
+  --icon-default-secondary: var(--primitive-base-white);
+  --icon-default-tertiary: var(--primitive-neutral-600);
+  --icon-default-inverse: var(--primitive-base-white);
+  --icon-default-on-surface: var(--primitive-base-white);
+
+  --icon-state-on-surface-disabled: var(--primitive-neutral-400);
+  --icon-state-on-brand-disabled: var(--primitive-lavender-dark-300);
+  --icon-state-on-danger-disabled: var(--primitive-red-300);
+
+  --icon-brand-primary: var(--brand-primary);
+  --icon-brand-primary-strong: var(--primitive-lavender-dark-600);
+
+  --icon-status-warning: var(--status-warning);
+  --icon-status-success: var(--status-success);
+  --icon-status-error: var(--status-error);
+
+  --action-solid-primary-container-default: var(--surface-default-brand-default);
+  --action-solid-primary-container-pressed: var(--surface-default-brand-strong);
+  --action-solid-primary-container-disabled: var(--surface-default-brand-subtle);
+  --action-solid-primary-text-default: var(--text-default-on-surface);
+  --action-solid-primary-text-pressed: var(--text-default-on-surface);
+  --action-solid-primary-text-disabled: var(--text-state-on-brand-disabled);
+  --action-solid-primary-icon-default: var(--icon-default-on-surface);
+  --action-solid-primary-icon-pressed: var(--icon-default-on-surface);
+  --action-solid-primary-icon-disabled: var(--icon-state-on-brand-disabled);
+  --action-solid-primary-border-default: var(--border-brand-primary);
+  --action-solid-primary-border-pressed: var(--border-brand-primary);
+  --action-solid-primary-border-disabled: var(--border-brand-soft);
+
+  --action-solid-secondary-container-default: var(--surface-default-default);
+  --action-solid-secondary-container-pressed: var(--surface-default-neutral-soft);
+  --action-solid-secondary-container-disabled: var(--surface-default-neutral-subtle);
+  --action-solid-secondary-text-default: var(--text-default-primary);
+  --action-solid-secondary-text-pressed: var(--text-default-primary);
+  --action-solid-secondary-text-disabled: var(--text-state-on-surface-disabled);
+  --action-solid-secondary-icon-default: var(--text-default-primary);
+  --action-solid-secondary-icon-pressed: var(--icon-default-primary);
+  --action-solid-secondary-icon-disabled: var(--icon-state-on-surface-disabled);
+
+  --action-solid-neutral-container-default: var(--surface-default-inverse-strong);
+  --action-solid-neutral-container-pressed: var(--surface-default-inverse-subtle);
+  --action-solid-neutral-container-disabled: var(--surface-default-neutral-subtle);
+  --action-solid-neutral-text-default: var(--text-default-inverse);
+  --action-solid-neutral-text-pressed: var(--text-default-inverse);
+  --action-solid-neutral-text-disabled: var(--text-state-on-surface-disabled);
+  --action-solid-neutral-icon-default: var(--icon-default-inverse);
+  --action-solid-neutral-icon-pressed: var(--icon-default-inverse);
+  --action-solid-neutral-icon-disabled: var(--icon-state-on-surface-disabled);
+
+  --action-solid-destructive-container-default: var(--surface-default-danger);
+  --action-solid-destructive-container-pressed: var(--surface-default-danger-strong);
+  --action-solid-destructive-container-disabled: var(--surface-default-danger-subtle);
+  --action-solid-destructive-text-default: var(--text-default-on-surface);
+  --action-solid-destructive-text-pressed: var(--text-default-on-surface);
+  --action-solid-destructive-text-disabled: var(--text-state-on-danger-disabled);
+  --action-solid-destructive-icon-default: var(--icon-default-on-surface);
+  --action-solid-destructive-icon-pressed: var(--icon-default-on-surface);
+  --action-solid-destructive-icon-disabled: var(--icon-state-on-danger-disabled);
+
+  --action-outline-primary-container-default: var(--primitive-base-transparent);
+  --action-outline-primary-container-pressed: var(--surface-default-brand-soft);
+  --action-outline-primary-container-disabled: var(--surface-default-brand-subtle);
+  --action-outline-primary-text-default: var(--text-brand-primary);
+  --action-outline-primary-text-pressed: var(--text-brand-primary);
+  --action-outline-primary-text-disabled: var(--text-state-on-brand-disabled);
+  --action-outline-primary-icon-default: var(--text-brand-primary);
+  --action-outline-primary-icon-pressed: var(--text-brand-primary);
+  --action-outline-primary-icon-disabled: var(--icon-state-on-brand-disabled);
+  --action-outline-primary-border-default: var(--border-brand-primary);
+  --action-outline-primary-border-pressed: var(--border-brand-primary);
+  --action-outline-primary-border-disabled: var(--border-brand-soft);
+
+  --action-outline-secondary-container-default: var(--primitive-base-transparent);
+  --action-outline-secondary-container-pressed: var(--surface-default-neutral-soft);
+  --action-outline-secondary-container-disabled: var(--surface-default-neutral-subtle);
+  --action-outline-secondary-text-default: var(--text-default-primary);
+  --action-outline-secondary-text-pressed: var(--text-default-primary);
+  --action-outline-secondary-text-disabled: var(--text-state-on-surface-disabled);
+  --action-outline-secondary-icon-default: var(--text-default-primary);
+  --action-outline-secondary-icon-pressed: var(--icon-default-primary);
+  --action-outline-secondary-icon-disabled: var(--icon-state-on-surface-disabled);
+  --action-outline-secondary-border-default: var(--border-default-strong);
+  --action-outline-secondary-border-pressed: var(--border-default-strong);
+  --action-outline-secondary-border-disabled: var(--border-state-disabled);
+
+  --action-outline-neutral-container-default: var(--primitive-base-transparent);
+  --action-outline-neutral-container-pressed: var(--surface-default-neutral-soft);
+  --action-outline-neutral-container-disabled: var(--surface-default-neutral-subtle);
+  --action-outline-neutral-text-default: var(--primitive-neutral-600);
+  --action-outline-neutral-text-pressed: var(--primitive-neutral-600);
+  --action-outline-neutral-text-disabled: var(--text-state-on-surface-disabled);
+  --action-outline-neutral-icon-default: var(--primitive-neutral-600);
+  --action-outline-neutral-icon-pressed: var(--primitive-neutral-600);
+  --action-outline-neutral-icon-disabled: var(--icon-state-on-surface-disabled);
+  --action-outline-neutral-border-default: var(--primitive-neutral-600);
+  --action-outline-neutral-border-pressed: var(--primitive-neutral-600);
+  --action-outline-neutral-border-disabled: var(--border-state-disabled);
+
+  --action-outline-destructive-container-default: var(--primitive-base-transparent);
+  --action-outline-destructive-container-pressed: var(--surface-default-danger-subtle);
+  --action-outline-destructive-container-disabled: var(--surface-default-danger-subtle);
+  --action-outline-destructive-text-default: var(--text-status-error);
+  --action-outline-destructive-text-pressed: var(--text-status-error);
+  --action-outline-destructive-text-disabled: var(--text-state-on-danger-disabled);
+  --action-outline-destructive-icon-default: var(--icon-status-error);
+  --action-outline-destructive-icon-pressed: var(--icon-status-error);
+  --action-outline-destructive-icon-disabled: var(--icon-state-on-danger-disabled);
+  --action-outline-destructive-border-default: var(--border-default-danger);
+  --action-outline-destructive-border-pressed: var(--border-default-danger);
+  --action-outline-destructive-border-disabled: var(--border-default-danger-soft);
+
+  --action-ghost-primary-container-default: var(--primitive-base-transparent);
+  --action-ghost-primary-container-pressed: var(--surface-default-brand-soft);
+  --action-ghost-primary-container-disabled: var(--primitive-base-transparent);
+  --action-ghost-primary-text-default: var(--text-brand-primary);
+  --action-ghost-primary-text-pressed: var(--text-brand-primary);
+  --action-ghost-primary-text-disabled: var(--text-state-on-brand-disabled);
+  --action-ghost-primary-icon-default: var(--text-brand-primary);
+  --action-ghost-primary-icon-pressed: var(--text-brand-primary);
+  --action-ghost-primary-icon-disabled: var(--icon-state-on-brand-disabled);
+  --action-ghost-primary-border-default: var(--primitive-base-transparent);
+  --action-ghost-primary-border-pressed: var(--primitive-base-transparent);
+  --action-ghost-primary-border-disabled: var(--primitive-base-transparent);
+
+  --action-ghost-secondary-container-default: var(--primitive-base-transparent);
+  --action-ghost-secondary-container-pressed: var(--surface-default-neutral-subtle);
+  --action-ghost-secondary-container-disabled: var(--primitive-base-transparent);
+  --action-ghost-secondary-text-default: var(--text-default-primary);
+  --action-ghost-secondary-text-pressed: var(--text-default-tertiary);
+  --action-ghost-secondary-text-disabled: var(--text-state-on-surface-disabled);
+  --action-ghost-secondary-icon-default: var(--icon-default-primary);
+  --action-ghost-secondary-icon-pressed: var(--icon-default-tertiary);
+  --action-ghost-secondary-icon-disabled: var(--icon-state-on-surface-disabled);
+  --action-ghost-secondary-border-default: var(--primitive-base-transparent);
+  --action-ghost-secondary-border-pressed: var(--primitive-base-transparent);
+  --action-ghost-secondary-border-disabled: var(--primitive-base-transparent);
+
+  --action-ghost-neutral-container-default: var(--primitive-base-transparent);
+  --action-ghost-neutral-container-pressed: var(--primitive-neutral-50);
+  --action-ghost-neutral-container-disabled: var(--primitive-base-transparent);
+  --action-ghost-neutral-text-default: var(--text-default-primary);
+  --action-ghost-neutral-text-pressed: var(--text-default-tertiary);
+  --action-ghost-neutral-text-disabled: var(--text-state-on-surface-disabled);
+  --action-ghost-neutral-icon-default: var(--icon-default-primary);
+  --action-ghost-neutral-icon-pressed: var(--icon-default-tertiary);
+  --action-ghost-neutral-icon-disabled: var(--icon-state-on-surface-disabled);
+  --action-ghost-neutral-border-default: var(--primitive-base-transparent);
+  --action-ghost-neutral-border-pressed: var(--primitive-base-transparent);
+  --action-ghost-neutral-border-disabled: var(--primitive-base-transparent);
+
+  --action-ghost-destructive-container-default: var(--primitive-base-transparent);
+  --action-ghost-destructive-container-pressed: var(--surface-default-danger-subtle);
+  --action-ghost-destructive-container-disabled: var(--primitive-base-transparent);
+  --action-ghost-destructive-text-default: var(--text-status-error);
+  --action-ghost-destructive-text-pressed: var(--text-status-error);
+  --action-ghost-destructive-text-disabled: var(--text-state-on-danger-disabled);
+  --action-ghost-destructive-icon-default: var(--icon-status-error);
+  --action-ghost-destructive-icon-pressed: var(--icon-status-error);
+  --action-ghost-destructive-icon-disabled: var(--icon-state-on-danger-disabled);
+  --action-ghost-destructive-border-default: var(--primitive-base-transparent);
+  --action-ghost-destructive-border-pressed: var(--primitive-base-transparent);
+  --action-ghost-destructive-border-disabled: var(--primitive-base-transparent);
+
+  --state-focus-ring: var(--primitive-lavender-dark-300);
+  --state-success: var(--status-success);
+  --state-warning: var(--status-warning);
+  --state-danger: var(--status-error);
+  --action-primary: var(--action-solid-primary-container-default);
+  --action-primary-hover: var(--action-solid-primary-container-pressed);
+  --action-primary-label: var(--action-solid-primary-text-default);
+  --action-neutral: var(--action-solid-neutral-container-default);
+  --action-neutral-hover: var(--action-solid-neutral-container-pressed);
+  --action-neutral-label: var(--action-solid-neutral-text-default);
+
+  /* Legacy aliases used by the current scaffold. Prefer semantic/component tokens in new code. */
+  --color-background: var(--background-page);
+  --color-surface: var(--surface-default);
+  --color-surface-muted: var(--surface-default-neutral-subtle);
+  --color-text: var(--text-primary);
+  --color-muted: var(--text-secondary);
+  --color-border: var(--border-default);
+  --color-accent: var(--text-brand);
+  --color-accent-strong: var(--text-brand-strong);
+  --color-accent-soft: var(--primitive-lavender-100);
+  --color-ring: var(--state-focus-ring);
+}

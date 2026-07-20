@@ -1,0 +1,309 @@
+:root {
+  --button-color-solid-primary-default-bg: var(--action-solid-primary-container-default);
+  --button-color-solid-primary-default-label: var(--action-solid-primary-text-default);
+  --button-color-solid-primary-default-leading-icon: var(--action-solid-primary-icon-default);
+  --button-color-solid-primary-default-trailing-icon: var(--action-solid-primary-icon-default);
+  --button-color-solid-primary-pressed-bg: var(--action-solid-primary-container-pressed);
+  --button-color-solid-primary-pressed-label: var(--action-solid-primary-text-pressed);
+  --button-color-solid-primary-pressed-leading-icon: var(--action-solid-primary-icon-pressed);
+  --button-color-solid-primary-pressed-trailing-icon: var(--action-solid-primary-icon-pressed);
+  --button-color-solid-primary-disabled-bg: var(--action-solid-primary-container-disabled);
+  --button-color-solid-primary-disabled-label: var(--action-solid-primary-text-disabled);
+  --button-color-solid-primary-disabled-leading-icon: var(--action-solid-primary-icon-disabled);
+  --button-color-solid-primary-disabled-trailing-icon: var(--action-solid-primary-icon-disabled);
+
+  --button-color-solid-secondary-default-bg: var(--action-solid-secondary-container-default);
+  --button-color-solid-secondary-default-label: var(--action-solid-secondary-text-default);
+  --button-color-solid-secondary-default-leading-icon: var(--action-solid-secondary-icon-default);
+  --button-color-solid-secondary-default-trailing-icon: var(--action-solid-secondary-icon-default);
+  --button-color-solid-secondary-pressed-bg: var(--action-solid-secondary-container-pressed);
+  --button-color-solid-secondary-pressed-label: var(--action-solid-secondary-text-pressed);
+  --button-color-solid-secondary-pressed-leading-icon: var(--action-solid-secondary-icon-pressed);
+  --button-color-solid-secondary-pressed-trailing-icon: var(--action-solid-secondary-icon-pressed);
+  --button-color-solid-secondary-disabled-bg: var(--action-solid-secondary-container-disabled);
+  --button-color-solid-secondary-disabled-label: var(--action-solid-secondary-text-disabled);
+  --button-color-solid-secondary-disabled-leading-icon: var(--action-solid-secondary-icon-disabled);
+  --button-color-solid-secondary-disabled-trailing-icon: var(--action-solid-secondary-icon-disabled);
+
+  --button-color-solid-destructive-default-bg: var(--action-solid-destructive-container-default);
+  --button-color-solid-destructive-default-label: var(--action-solid-destructive-text-default);
+  --button-color-solid-destructive-default-leading-icon: var(--action-solid-destructive-icon-default);
+  --button-color-solid-destructive-default-trailing-icon: var(--action-solid-destructive-icon-default);
+  --button-color-solid-destructive-pressed-bg: var(--action-solid-destructive-container-pressed);
+  --button-color-solid-destructive-pressed-label: var(--action-solid-destructive-text-pressed);
+  --button-color-solid-destructive-pressed-leading-icon: var(--action-solid-destructive-icon-pressed);
+  --button-color-solid-destructive-pressed-trailing-icon: var(--action-solid-destructive-icon-pressed);
+  --button-color-solid-destructive-disabled-bg: var(--action-solid-destructive-container-disabled);
+  --button-color-solid-destructive-disabled-label: var(--action-solid-destructive-text-disabled);
+  --button-color-solid-destructive-disabled-leading-icon: var(--action-solid-destructive-icon-disabled);
+  --button-color-solid-destructive-disabled-trailing-icon: var(--action-solid-destructive-icon-disabled);
+
+  --button-color-solid-neutral-default-bg: var(--action-solid-neutral-container-default);
+  --button-color-solid-neutral-default-label: var(--action-solid-neutral-text-default);
+  --button-color-solid-neutral-default-leading-icon: var(--action-solid-neutral-icon-default);
+  --button-color-solid-neutral-default-trailing-icon: var(--action-solid-neutral-icon-default);
+  --button-color-solid-neutral-pressed-bg: var(--action-solid-neutral-container-pressed);
+  --button-color-solid-neutral-pressed-label: var(--action-solid-neutral-text-pressed);
+  --button-color-solid-neutral-pressed-leading-icon: var(--action-solid-neutral-icon-pressed);
+  --button-color-solid-neutral-pressed-trailing-icon: var(--action-solid-neutral-icon-pressed);
+  --button-color-solid-neutral-disabled-bg: var(--action-solid-neutral-container-disabled);
+  --button-color-solid-neutral-disabled-label: var(--action-solid-neutral-text-disabled);
+  --button-color-solid-neutral-disabled-leading-icon: var(--action-solid-neutral-icon-disabled);
+  --button-color-solid-neutral-disabled-trailing-icon: var(--action-solid-neutral-icon-disabled);
+
+  --button-color-outline-primary-default-bg: var(--action-outline-primary-container-default);
+  --button-color-outline-primary-default-label: var(--action-outline-primary-text-default);
+  --button-color-outline-primary-default-leading-icon: var(--action-outline-primary-icon-default);
+  --button-color-outline-primary-default-trailing-icon: var(--action-outline-primary-icon-default);
+  --button-color-outline-primary-default-border: var(--action-outline-primary-border-default);
+  --button-color-outline-primary-pressed-bg: var(--action-outline-primary-container-pressed);
+  --button-color-outline-primary-pressed-label: var(--action-outline-primary-text-pressed);
+  --button-color-outline-primary-pressed-leading-icon: var(--action-outline-primary-icon-pressed);
+  --button-color-outline-primary-pressed-trailing-icon: var(--action-outline-primary-icon-pressed);
+  --button-color-outline-primary-pressed-border: var(--action-outline-primary-border-pressed);
+  --button-color-outline-primary-disabled-bg: var(--action-outline-primary-container-disabled);
+  --button-color-outline-primary-disabled-label: var(--action-outline-primary-text-disabled);
+  --button-color-outline-primary-disabled-leading-icon: var(--action-outline-primary-icon-disabled);
+  --button-color-outline-primary-disabled-trailing-icon: var(--action-outline-primary-icon-disabled);
+  --button-color-outline-primary-disabled-border: var(--action-outline-primary-border-disabled);
+
+  --button-color-outline-secondary-default-bg: var(--action-outline-secondary-container-default);
+  --button-color-outline-secondary-default-label: var(--action-outline-secondary-text-default);
+  --button-color-outline-secondary-default-leading-icon: var(--action-outline-secondary-icon-default);
+  --button-color-outline-secondary-default-trailing-icon: var(--action-outline-secondary-icon-default);
+  --button-color-outline-secondary-default-border: var(--action-outline-secondary-border-default);
+  --button-color-outline-secondary-pressed-bg: var(--action-outline-secondary-container-pressed);
+  --button-color-outline-secondary-pressed-label: var(--action-outline-secondary-text-pressed);
+  --button-color-outline-secondary-pressed-leading-icon: var(--action-outline-secondary-icon-pressed);
+  --button-color-outline-secondary-pressed-trailing-icon: var(--action-outline-secondary-icon-pressed);
+  --button-color-outline-secondary-pressed-border: var(--action-outline-secondary-border-pressed);
+  --button-color-outline-secondary-disabled-bg: var(--action-outline-secondary-container-disabled);
+  --button-color-outline-secondary-disabled-label: var(--action-outline-secondary-text-disabled);
+  --button-color-outline-secondary-disabled-leading-icon: var(--action-outline-secondary-icon-disabled);
+  --button-color-outline-secondary-disabled-trailing-icon: var(--action-outline-secondary-icon-disabled);
+  --button-color-outline-secondary-disabled-border: var(--action-outline-secondary-border-disabled);
+
+  --button-color-outline-neutral-default-bg: var(--action-outline-neutral-container-default);
+  --button-color-outline-neutral-default-label: var(--action-outline-neutral-text-default);
+  --button-color-outline-neutral-default-leading-icon: var(--action-outline-neutral-icon-default);
+  --button-color-outline-neutral-default-trailing-icon: var(--action-outline-neutral-icon-default);
+  --button-color-outline-neutral-default-border: var(--action-outline-neutral-border-default);
+  --button-color-outline-neutral-pressed-bg: var(--action-outline-neutral-container-pressed);
+  --button-color-outline-neutral-pressed-label: var(--action-outline-neutral-text-pressed);
+  --button-color-outline-neutral-pressed-leading-icon: var(--action-outline-neutral-icon-pressed);
+  --button-color-outline-neutral-pressed-trailing-icon: var(--action-outline-neutral-icon-pressed);
+  --button-color-outline-neutral-pressed-border: var(--action-outline-neutral-border-pressed);
+  --button-color-outline-neutral-disabled-bg: var(--action-outline-neutral-container-disabled);
+  --button-color-outline-neutral-disabled-label: var(--action-outline-neutral-border-disabled);
+  --button-color-outline-neutral-disabled-leading-icon: var(--action-outline-neutral-icon-disabled);
+  --button-color-outline-neutral-disabled-trailing-icon: var(--action-outline-neutral-icon-disabled);
+  --button-color-outline-neutral-disabled-border: var(--action-outline-neutral-border-disabled);
+
+  --button-color-outline-destructive-default-bg: var(--action-outline-destructive-container-default);
+  --button-color-outline-destructive-default-label: var(--action-outline-destructive-text-default);
+  --button-color-outline-destructive-default-leading-icon: var(--action-outline-destructive-icon-default);
+  --button-color-outline-destructive-default-trailing-icon: var(--action-outline-destructive-icon-default);
+  --button-color-outline-destructive-default-border: var(--action-outline-destructive-border-default);
+  --button-color-outline-destructive-pressed-bg: var(--action-outline-destructive-container-pressed);
+  --button-color-outline-destructive-pressed-label: var(--action-outline-destructive-text-pressed);
+  --button-color-outline-destructive-pressed-leading-icon: var(--action-outline-destructive-icon-pressed);
+  --button-color-outline-destructive-pressed-trailing-icon: var(--action-outline-destructive-icon-pressed);
+  --button-color-outline-destructive-pressed-border: var(--action-outline-destructive-border-pressed);
+  --button-color-outline-destructive-disabled-bg: var(--action-outline-destructive-container-disabled);
+  --button-color-outline-destructive-disabled-label: var(--action-outline-destructive-text-disabled);
+  --button-color-outline-destructive-disabled-leading-icon: var(--action-outline-destructive-icon-disabled);
+  --button-color-outline-destructive-disabled-trailing-icon: var(--action-outline-destructive-icon-disabled);
+  --button-color-outline-destructive-disabled-border: var(--action-outline-destructive-border-disabled);
+
+  --button-color-ghost-primary-default-bg: var(--action-ghost-primary-container-default);
+  --button-color-ghost-primary-default-label: var(--action-ghost-primary-text-default);
+  --button-color-ghost-primary-default-leading-icon: var(--action-ghost-primary-icon-default);
+  --button-color-ghost-primary-default-trailing-icon: var(--action-ghost-primary-icon-default);
+  --button-color-ghost-primary-default-border: var(--action-ghost-primary-border-default);
+  --button-color-ghost-primary-pressed-bg: var(--action-ghost-primary-container-pressed);
+  --button-color-ghost-primary-pressed-label: var(--action-ghost-primary-text-pressed);
+  --button-color-ghost-primary-pressed-leading-icon: var(--action-ghost-primary-icon-pressed);
+  --button-color-ghost-primary-pressed-trailing-icon: var(--action-ghost-primary-icon-pressed);
+  --button-color-ghost-primary-pressed-border: var(--action-ghost-primary-border-pressed);
+  --button-color-ghost-primary-disabled-bg: var(--action-ghost-primary-container-disabled);
+  --button-color-ghost-primary-disabled-label: var(--action-ghost-primary-text-disabled);
+  --button-color-ghost-primary-disabled-leading-icon: var(--action-ghost-primary-icon-disabled);
+  --button-color-ghost-primary-disabled-trailing-icon: var(--action-ghost-primary-icon-disabled);
+  --button-color-ghost-primary-disabled-border: var(--action-ghost-primary-border-disabled);
+
+  --button-color-ghost-secondary-default-bg: var(--action-ghost-secondary-container-default);
+  --button-color-ghost-secondary-default-label: var(--action-ghost-secondary-text-default);
+  --button-color-ghost-secondary-default-leading-icon: var(--action-ghost-secondary-icon-default);
+  --button-color-ghost-secondary-default-trailing-icon: var(--action-ghost-secondary-icon-default);
+  --button-color-ghost-secondary-default-border: var(--action-ghost-secondary-border-default);
+  --button-color-ghost-secondary-pressed-bg: var(--action-ghost-secondary-container-pressed);
+  --button-color-ghost-secondary-pressed-label: var(--action-ghost-secondary-text-pressed);
+  --button-color-ghost-secondary-pressed-leading-icon: var(--action-ghost-secondary-icon-pressed);
+  --button-color-ghost-secondary-pressed-trailing-icon: var(--action-ghost-secondary-icon-pressed);
+  --button-color-ghost-secondary-pressed-border: var(--action-ghost-secondary-border-pressed);
+  --button-color-ghost-secondary-disabled-bg: var(--action-ghost-secondary-container-disabled);
+  --button-color-ghost-secondary-disabled-label: var(--action-ghost-secondary-text-disabled);
+  --button-color-ghost-secondary-disabled-leading-icon: var(--action-ghost-secondary-icon-disabled);
+  --button-color-ghost-secondary-disabled-trailing-icon: var(--action-ghost-secondary-icon-disabled);
+  --button-color-ghost-secondary-disabled-border: var(--action-ghost-secondary-border-disabled);
+
+  --button-color-ghost-neutral-default-bg: var(--action-ghost-neutral-container-default);
+  --button-color-ghost-neutral-default-label: var(--action-ghost-neutral-text-default);
+  --button-color-ghost-neutral-default-leading-icon: var(--action-ghost-neutral-icon-default);
+  --button-color-ghost-neutral-default-trailing-icon: var(--action-ghost-neutral-icon-default);
+  --button-color-ghost-neutral-default-border: var(--action-ghost-neutral-border-default);
+  --button-color-ghost-neutral-pressed-bg: var(--action-ghost-neutral-container-pressed);
+  --button-color-ghost-neutral-pressed-label: var(--action-ghost-neutral-text-pressed);
+  --button-color-ghost-neutral-pressed-leading-icon: var(--action-ghost-neutral-icon-pressed);
+  --button-color-ghost-neutral-pressed-trailing-icon: var(--action-ghost-neutral-icon-pressed);
+  --button-color-ghost-neutral-pressed-border: var(--action-ghost-neutral-border-pressed);
+  --button-color-ghost-neutral-disabled-bg: var(--action-ghost-neutral-container-disabled);
+  --button-color-ghost-neutral-disabled-label: var(--action-ghost-neutral-text-disabled);
+  --button-color-ghost-neutral-disabled-leading-icon: var(--action-ghost-neutral-icon-disabled);
+  --button-color-ghost-neutral-disabled-trailing-icon: var(--action-ghost-neutral-icon-disabled);
+  --button-color-ghost-neutral-disabled-border: var(--action-ghost-neutral-border-disabled);
+
+  --button-color-ghost-destructive-default-bg: var(--action-ghost-destructive-container-default);
+  --button-color-ghost-destructive-default-label: var(--action-ghost-destructive-text-default);
+  --button-color-ghost-destructive-default-leading-icon: var(--action-ghost-destructive-icon-default);
+  --button-color-ghost-destructive-default-trailing-icon: var(--action-ghost-destructive-icon-default);
+  --button-color-ghost-destructive-default-border: var(--action-ghost-destructive-border-default);
+  --button-color-ghost-destructive-pressed-bg: var(--action-ghost-destructive-container-pressed);
+  --button-color-ghost-destructive-pressed-label: var(--action-ghost-destructive-text-pressed);
+  --button-color-ghost-destructive-pressed-leading-icon: var(--action-ghost-destructive-icon-pressed);
+  --button-color-ghost-destructive-pressed-trailing-icon: var(--action-ghost-destructive-icon-pressed);
+  --button-color-ghost-destructive-pressed-border: var(--action-ghost-destructive-border-pressed);
+  --button-color-ghost-destructive-disabled-bg: var(--action-ghost-destructive-container-disabled);
+  --button-color-ghost-destructive-disabled-label: var(--action-ghost-destructive-text-disabled);
+  --button-color-ghost-destructive-disabled-leading-icon: var(--action-ghost-destructive-icon-disabled);
+  --button-color-ghost-destructive-disabled-trailing-icon: var(--action-ghost-destructive-icon-disabled);
+  --button-color-ghost-destructive-disabled-border: var(--action-ghost-destructive-border-disabled);
+
+  --button-size-sm-icon: var(--icon-size-20);
+  --button-size-sm-icon-label-gap: 8px;
+  --button-size-sm-padding-x: 16px;
+  --button-size-sm-min-height: var(--size-36);
+  --button-size-sm-border-width: 1px;
+  --button-size-md-icon: var(--icon-size-24);
+  --button-size-md-icon-label-gap: 10px;
+  --button-size-md-padding-x: 20px;
+  --button-size-md-min-height: var(--size-44);
+  --button-size-md-border-width: 1px;
+  --button-size-lg-icon: var(--icon-size-24);
+  --button-size-lg-icon-label-gap: 12px;
+  --button-size-lg-padding-x: 24px;
+  --button-size-lg-min-height: var(--size-52);
+  --button-size-lg-border-width: 1px;
+
+  --button-shape-round-sm-radius: var(--radius-8);
+  --button-shape-round-md-radius: var(--radius-10);
+  --button-shape-round-lg-radius: var(--radius-12);
+  --button-shape-pill-radius: var(--radius-pill);
+
+  --button-primary-bg: var(--button-color-solid-primary-default-bg);
+  --button-primary-bg-hover: var(--button-color-solid-primary-pressed-bg);
+  --button-primary-bg-disabled: var(--button-color-solid-primary-disabled-bg);
+  --button-primary-label: var(--button-color-solid-primary-default-label);
+  --button-primary-label-disabled: var(--button-color-solid-primary-disabled-label);
+  --button-primary-icon: var(--button-color-solid-primary-default-leading-icon);
+  --button-primary-icon-disabled: var(--button-color-solid-primary-disabled-leading-icon);
+  --button-primary-border: var(--action-solid-primary-border-default);
+
+  --button-neutral-bg: var(--button-color-solid-neutral-default-bg);
+  --button-neutral-bg-hover: var(--button-color-solid-neutral-pressed-bg);
+  --button-neutral-bg-disabled: var(--button-color-solid-neutral-disabled-bg);
+  --button-neutral-label: var(--button-color-solid-neutral-default-label);
+  --button-neutral-label-disabled: var(--button-color-solid-neutral-disabled-label);
+  --button-neutral-icon: var(--button-color-solid-neutral-default-leading-icon);
+  --button-neutral-icon-disabled: var(--button-color-solid-neutral-disabled-leading-icon);
+
+  --button-outline-primary-bg: var(--button-color-outline-primary-default-bg);
+  --button-outline-primary-bg-hover: var(--button-color-outline-primary-pressed-bg);
+  --button-outline-primary-bg-disabled: var(--button-color-outline-primary-disabled-bg);
+  --button-outline-primary-border: var(--button-color-outline-primary-default-border);
+  --button-outline-primary-label: var(--button-color-outline-primary-default-label);
+  --button-outline-primary-label-disabled: var(--button-color-outline-primary-disabled-label);
+  --button-outline-primary-icon: var(--button-color-outline-primary-default-leading-icon);
+  --button-outline-primary-icon-disabled: var(--button-color-outline-primary-disabled-leading-icon);
+
+  --button-outline-secondary-bg: var(--button-color-outline-secondary-default-bg);
+  --button-outline-secondary-bg-hover: var(--button-color-outline-secondary-pressed-bg);
+  --button-outline-secondary-bg-disabled: var(--button-color-outline-secondary-disabled-bg);
+  --button-outline-secondary-border: var(--button-color-outline-secondary-default-border);
+  --button-outline-secondary-label: var(--button-color-outline-secondary-default-label);
+  --button-outline-secondary-label-disabled: var(--button-color-outline-secondary-disabled-label);
+  --button-outline-secondary-icon: var(--button-color-outline-secondary-default-leading-icon);
+  --button-outline-secondary-icon-disabled: var(--button-color-outline-secondary-disabled-leading-icon);
+
+  --button-outline-neutral-bg: var(--button-color-outline-neutral-default-bg);
+  --button-outline-neutral-bg-hover: var(--button-color-outline-neutral-pressed-bg);
+  --button-outline-neutral-bg-disabled: var(--button-color-outline-neutral-disabled-bg);
+  --button-outline-neutral-border: var(--button-color-outline-neutral-default-border);
+  --button-outline-neutral-label: var(--button-color-outline-neutral-default-label);
+  --button-outline-neutral-label-disabled: var(--button-color-outline-neutral-disabled-label);
+  --button-outline-neutral-icon: var(--button-color-outline-neutral-default-leading-icon);
+  --button-outline-neutral-icon-disabled: var(--button-color-outline-neutral-disabled-leading-icon);
+
+  --button-outline-destructive-bg: var(--button-color-outline-destructive-default-bg);
+  --button-outline-destructive-bg-hover: var(--button-color-outline-destructive-pressed-bg);
+  --button-outline-destructive-bg-disabled: var(--button-color-outline-destructive-disabled-bg);
+  --button-outline-destructive-border: var(--button-color-outline-destructive-default-border);
+  --button-outline-destructive-label: var(--button-color-outline-destructive-default-label);
+  --button-outline-destructive-label-disabled: var(--button-color-outline-destructive-disabled-label);
+  --button-outline-destructive-icon: var(--button-color-outline-destructive-default-leading-icon);
+  --button-outline-destructive-icon-disabled: var(--button-color-outline-destructive-disabled-leading-icon);
+
+  --button-ghost-primary-bg: var(--button-color-ghost-primary-default-bg);
+  --button-ghost-primary-bg-hover: var(--button-color-ghost-primary-pressed-bg);
+  --button-ghost-primary-bg-disabled: var(--button-color-ghost-primary-disabled-bg);
+  --button-ghost-primary-border: var(--button-color-ghost-primary-default-border);
+  --button-ghost-primary-label: var(--button-color-ghost-primary-default-label);
+  --button-ghost-primary-label-disabled: var(--button-color-ghost-primary-disabled-label);
+  --button-ghost-primary-icon: var(--button-color-ghost-primary-default-leading-icon);
+  --button-ghost-primary-icon-disabled: var(--button-color-ghost-primary-disabled-leading-icon);
+
+  --button-ghost-secondary-bg: var(--button-color-ghost-secondary-default-bg);
+  --button-ghost-secondary-bg-hover: var(--button-color-ghost-secondary-pressed-bg);
+  --button-ghost-secondary-bg-disabled: var(--button-color-ghost-secondary-disabled-bg);
+  --button-ghost-secondary-border: var(--button-color-ghost-secondary-default-border);
+  --button-ghost-secondary-label: var(--button-color-ghost-secondary-default-label);
+  --button-ghost-secondary-label-disabled: var(--button-color-ghost-secondary-disabled-label);
+  --button-ghost-secondary-icon: var(--button-color-ghost-secondary-default-leading-icon);
+  --button-ghost-secondary-icon-disabled: var(--button-color-ghost-secondary-disabled-leading-icon);
+
+  --button-ghost-neutral-bg: var(--button-color-ghost-neutral-default-bg);
+  --button-ghost-neutral-bg-hover: var(--button-color-ghost-neutral-pressed-bg);
+  --button-ghost-neutral-bg-disabled: var(--button-color-ghost-neutral-disabled-bg);
+  --button-ghost-neutral-border: var(--button-color-ghost-neutral-default-border);
+  --button-ghost-neutral-label: var(--button-color-ghost-neutral-default-label);
+  --button-ghost-neutral-label-disabled: var(--button-color-ghost-neutral-disabled-label);
+  --button-ghost-neutral-icon: var(--button-color-ghost-neutral-default-leading-icon);
+  --button-ghost-neutral-icon-disabled: var(--button-color-ghost-neutral-disabled-leading-icon);
+
+  --button-ghost-destructive-bg: var(--button-color-ghost-destructive-default-bg);
+  --button-ghost-destructive-bg-hover: var(--button-color-ghost-destructive-pressed-bg);
+  --button-ghost-destructive-bg-disabled: var(--button-color-ghost-destructive-disabled-bg);
+  --button-ghost-destructive-border: var(--button-color-ghost-destructive-default-border);
+  --button-ghost-destructive-label: var(--button-color-ghost-destructive-default-label);
+  --button-ghost-destructive-label-disabled: var(--button-color-ghost-destructive-disabled-label);
+  --button-ghost-destructive-icon: var(--button-color-ghost-destructive-default-leading-icon);
+  --button-ghost-destructive-icon-disabled: var(--button-color-ghost-destructive-disabled-leading-icon);
+
+  --nav-bg: var(--surface-default);
+  --nav-logo: var(--text-brand-primary-strong);
+  --nav-link: var(--text-default-primary);
+  --nav-link-hover: var(--text-brand-primary);
+
+  --card-bg: var(--surface-glass);
+  --card-border: var(--border-inverse, var(--primitive-base-white));
+  --card-title: var(--text-default-primary);
+  --card-description: var(--text-default-tertiary);
+  --card-shadow: 0 2px 10px rgb(219 221 224 / 0.5);
+  --card-inset-highlight: inset 0 0 15px rgb(255 255 255 / 0.9);
+
+  --tag-bg: var(--surface-default-brand-soft);
+  --tag-label: var(--text-brand-primary);
+
+  /* Legacy alias used by the current scaffold. */
+  --shadow-soft: var(--card-shadow);
+}

@@ -1,0 +1,16 @@
+:root {
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-pill: 999px;
+
+  /* Legacy aliases used by the current scaffold. */
+  --radius-40: 40px;
+
+  --radius-sm: 6px;
+  --radius-md: var(--radius-8);
+  --radius-lg: var(--radius-12);
+}

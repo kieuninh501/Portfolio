@@ -1,0 +1,15 @@
+:root {
+  --font-family-default: var(--font-nunito), "Nunito", var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  --font-family-display: var(--font-nunito), "Nunito", var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  --font-family-brand: var(--font-inter), "Inter", var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  --font-family-handwritten: var(--font-kalam), "Kalam", cursive;
+  --font-family-mono: var(--font-geist-mono), "SFMono-Regular", Consolas, monospace;
+
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
