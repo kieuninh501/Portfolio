@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import type { Locale } from "@/lib/i18n";
 import { copy, projects } from "@/data/content";
 import { RevealItem } from "@/components/motion/RevealSection";
@@ -43,10 +43,11 @@ export function FeaturedProjects({ locale }: FeaturedProjectsProps) {
               rootMargin="0px 0px 2% 0px"
               threshold={0.12}
             >
-              <img
+              <Image
                 alt=""
                 className="featured-project-card__image"
                 height={269}
+                sizes="(width < 640px) 120px, 360px"
                 src={project.image}
                 width={360}
               />

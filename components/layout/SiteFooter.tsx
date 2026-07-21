@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
 import { RevealItem } from "@/components/motion/RevealSection";
@@ -41,7 +41,14 @@ export function SiteFooter({ locale }: SiteFooterProps) {
         rootMargin="0px 0px 12% 0px"
         threshold={0.04}
       >
-        <img alt="" className="site-footer__background-image" src="/assets/backgrounds/bg-footer.png" />
+        <Image
+          alt=""
+          className="site-footer__background-image"
+          height={720}
+          sizes="100vw"
+          src="/assets/backgrounds/bg-footer.jpg"
+          width={1280}
+        />
       </RevealItem>
 
       <RevealItem
@@ -66,7 +73,14 @@ export function SiteFooter({ locale }: SiteFooterProps) {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img alt="" aria-hidden="true" className="site-footer__social-icon" src={link.icon} />
+                    <Image
+                      alt=""
+                      aria-hidden="true"
+                      className="site-footer__social-icon"
+                      height={24}
+                      src={link.icon}
+                      width={24}
+                    />
                   </Link>
                 </li>
               ))}
@@ -77,16 +91,25 @@ export function SiteFooter({ locale }: SiteFooterProps) {
             <p className="site-footer__contact-heading">{footer.getInTouch}</p>
             <div className="site-footer__contact-content">
               <a className="site-footer__contact-entry" href={`mailto:${profile.email}`}>
-                <img alt="" aria-hidden="true" className="site-footer__contact-icon" src="/assets/icons/email.svg" />
+                <Image
+                  alt=""
+                  aria-hidden="true"
+                  className="site-footer__contact-icon"
+                  height={24}
+                  src="/assets/icons/email.svg"
+                  width={24}
+                />
                 <span>{profile.email}</span>
               </a>
               <p className="site-footer__contact-entry">
                 <span className="site-footer__map-icon-wrap">
-                  <img
+                  <Image
                     alt=""
                     aria-hidden="true"
                     className="site-footer__map-icon"
+                    height={20}
                     src="/assets/icons/map-point.svg"
+                    width={16}
                   />
                 </span>
                 <span>{profile.location[locale]}</span>

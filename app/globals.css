@@ -133,7 +133,7 @@
   left: 50%;
   width: max(1280px, 100vw);
   height: 960px;
-  background-image: url("/assets/backgrounds/bg-image-81.png");
+  background-image: url("/assets/backgrounds/bg-image-81.jpg");
   background-size: cover;
   transform: translateX(-50%);
 }
@@ -1462,7 +1462,7 @@ body {
   left: 50%;
   width: max(1280px, 100vw);
   height: 960px;
-  background-image: url("/assets/backgrounds/bg-image-81.png");
+  background-image: url("/assets/backgrounds/bg-image-81.jpg");
   transform: translateX(-50%);
 }
 
@@ -5002,6 +5002,10 @@ body {
 
   .portfolio-page-shell > main {
     padding-top: 66px;
+  }
+
+  .page-background {
+    height: 100%;
   }
 
   .site-header {

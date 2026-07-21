@@ -224,7 +224,7 @@ export const projects: Project[] = [
       en: "A mobile experience for flexible work discovery, focused on trust and quick decision-making.",
     },
     year: "2026",
-    image: "/assets/sections/project-small-jobs.png",
+    image: "/assets/sections/project-small-jobs.jpg",
     tech: ["Mobile App", "Product Design", "UX Strategy"],
     featured: true,
   },
@@ -244,7 +244,7 @@ export const projects: Project[] = [
       en: "An independent product designed end-to-end, from experience direction to product interface.",
     },
     year: "2026",
-    image: "/assets/sections/project-sona-tarot.png",
+    image: "/assets/sections/project-sona-tarot.jpg",
     tech: ["Mobile App", "Visual Design", "Product UI"],
     featured: true,
   },
@@ -253,31 +253,31 @@ export const projects: Project[] = [
 export const playgroundStudies = [
   {
     title: "HR Perfomance Platform - UX/UI Case Study",
-    image: "/assets/sections/section-4-showcase-hr.png",
+    image: "/assets/sections/section-4-showcase-hr.jpg",
     size: "large",
     url: "https://www.behance.net/gallery/172247809/UIUX-Hr-Performance-App-case-study",
   },
   {
     title: "E-commerce App Redesign - 150+ Screens & Prototype",
-    image: "/assets/sections/section-4-showcase-ecommerce.png",
+    image: "/assets/sections/section-4-showcase-ecommerce.jpg",
     size: "small",
     url: "https://www.behance.net/gallery/123405413/Case-Study-Copywork-Redesign-Prototype-Lafyuu-App",
   },
   {
     title: "Landing Page Recreation - Responsive Study",
-    image: "/assets/sections/section-4-showcase-landing.png",
+    image: "/assets/sections/section-4-showcase-landing.jpg",
     size: "small",
     url: "https://www.behance.net/gallery/117437743/Copywork-shoutoutso",
   },
   {
     title: "PDF Scanner App - Mobile UI Concept",
-    image: "/assets/sections/section-4-showcase-scanner.png",
+    image: "/assets/sections/section-4-showcase-scanner.jpg",
     size: "small",
     url: "https://www.behance.net/gallery/196088121/PDF-Scanner-UI",
   },
   {
     title: "Manga Reader - Freelance Mobile App Design",
-    image: "/assets/sections/section-4-showcase-manga.png",
+    image: "/assets/sections/section-4-showcase-manga.jpg",
     size: "small",
     url: "https://www.behance.net/gallery/253018243/Manga-App",
   },
@@ -294,7 +294,7 @@ export const craftSteps = [
       vi: "Làm rõ mục tiêu, nhu cầu người dùng, yêu cầu và ràng buộc.",
       en: "Clarifying goals, user needs, requirements, and constraints.",
     },
-    image: "/assets/sections/section-5-note-1.png",
+    image: "/assets/sections/section-5-note-1.jpg",
   },
   {
     number: 2,
@@ -306,7 +306,7 @@ export const craftSteps = [
       vi: "Biến ý tưởng thành tính năng, ưu tiên và phạm vi sản phẩm rõ ràng.",
       en: "Turning ideas into clear features, priorities, and product scope.",
     },
-    image: "/assets/sections/section-5-note-2.png",
+    image: "/assets/sections/section-5-note-2.jpg",
   },
   {
     number: 3,
@@ -318,7 +318,7 @@ export const craftSteps = [
       vi: "Sắp xếp thông tin, luồng người dùng và logic tương tác.",
       en: "Organizing information, user flows, and interaction logic.",
     },
-    image: "/assets/sections/section-5-note-3.png",
+    image: "/assets/sections/section-5-note-3.jpg",
   },
   {
     number: 4,
@@ -330,7 +330,7 @@ export const craftSteps = [
       vi: "Thiết kế giao diện chính và xây dựng hệ thống có thể tái sử dụng.",
       en: "Designing key interfaces and building reusable systems.",
     },
-    image: "/assets/sections/section-5-note-4.png",
+    image: "/assets/sections/section-5-note-4.jpg",
   },
   {
     number: 5,
@@ -342,7 +342,7 @@ export const craftSteps = [
       vi: "Xem xét phản hồi, edge case, responsive behavior và tính nhất quán.",
       en: "Considering feedback, edge cases, responsive behavior, and consistency.",
     },
-    image: "/assets/sections/section-5-note-5.png",
+    image: "/assets/sections/section-5-note-5.jpg",
   },
   {
     number: 6,
@@ -354,7 +354,7 @@ export const craftSteps = [
       vi: "Chuẩn bị spec rõ ràng, ghi chú hành vi và chi tiết triển khai.",
       en: "Preparing clear specs, behavior notes, and implementation details.",
     },
-    image: "/assets/sections/section-5-note-6.png",
+    image: "/assets/sections/section-5-note-6.jpg",
   },
 ] as const;
 

@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import { copy, craftSteps } from "@/data/content";
 import type { Locale } from "@/lib/i18n";
 import { RevealItem } from "@/components/motion/RevealSection";
@@ -39,10 +39,11 @@ export function CraftProcess({ locale }: CraftProcessProps) {
               rootMargin="0px 0px 8% 0px"
               threshold={0.08}
             >
-              <img
+              <Image
                 alt=""
                 className="craft-note__image"
                 height={353}
+                sizes="(width < 640px) 270px, 353px"
                 src={step.image}
                 width={353}
               />

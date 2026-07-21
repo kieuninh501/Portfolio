@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import { RevealItem } from "@/components/motion/RevealSection";
 import { copy, playgroundStudies } from "@/data/content";
 import type { Locale } from "@/lib/i18n";
@@ -35,10 +35,11 @@ export function LearningPlayground({ locale }: LearningPlaygroundProps) {
           rootMargin="0px 0px 6% 0px"
           threshold={0.1}
         >
-          <img
+          <Image
             alt=""
             className="learning-playground-section__panel-bg"
             height={760}
+            sizes="(width < 900px) 100vw, 1120px"
             src="/assets/sections/section-4-bg.png"
             width={1120}
           />
@@ -55,10 +56,11 @@ export function LearningPlayground({ locale }: LearningPlaygroundProps) {
                 threshold={0.12}
               >
                 <span className="study-card__image-wrap study-card__image-wrap--large">
-                  <img
+                  <Image
                     alt=""
                     className="study-card__image"
                     height={435}
+                    sizes="(width < 900px) 475px, 475px"
                     src={featuredStudy.image}
                     width={475}
                   />
@@ -84,10 +86,11 @@ export function LearningPlayground({ locale }: LearningPlaygroundProps) {
                     threshold={0.12}
                   >
                     <span className="study-card__image-wrap study-card__image-wrap--small">
-                      <img
+                      <Image
                         alt=""
                         className="study-card__image"
                         height={171}
+                        sizes="(width < 900px) 222px, 222px"
                         src={study.image}
                         width={222}
                       />

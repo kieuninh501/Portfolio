@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import { RevealItem } from "@/components/motion/RevealSection";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { copy, journeyStories } from "@/data/content";
@@ -20,11 +20,12 @@ export function Experience({ locale }: ExperienceProps) {
         rootMargin="0px 0px 8% 0px"
         threshold={0.08}
       >
-        <img
+        <Image
           alt=""
           className="journey-section__background"
           height={960}
-          src="/assets/sections/section-6-bg.png"
+          sizes="100vw"
+          src="/assets/sections/section-6-bg.jpg"
           width={1280}
         />
       </RevealItem>

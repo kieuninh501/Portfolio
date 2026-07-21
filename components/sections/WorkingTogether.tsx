@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import { copy, workingTogetherCards } from "@/data/content";
 import type { Locale } from "@/lib/i18n";
 import { RevealItem } from "@/components/motion/RevealSection";
@@ -37,10 +37,11 @@ export function WorkingTogether({ locale }: WorkingTogetherProps) {
             rootMargin="0px 0px 8% 0px"
             threshold={0.08}
           >
-            <img
+            <Image
               alt=""
               className="working-together-card__orb"
               height={258}
+              sizes="258px"
               src={card.orb}
               width={258}
             />
